@@ -1,7 +1,6 @@
 # Other programming files:
 *.py
 *.c
-*.cpp
 
 # Executable file
 *.exe
