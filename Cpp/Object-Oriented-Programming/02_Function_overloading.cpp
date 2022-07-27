@@ -2,11 +2,12 @@
 
 using namespace std;
 
+/*  Function Overloading:
+    When we have different dataTypes or variable number of arguments.
+*/
+
 int add(int a, int b) { return a + b; }
 int add(int a, int b, int c) { return a + b + c; }
-/*
-    Different dataType or number of arguments.
-*/
 
 int main()
 {

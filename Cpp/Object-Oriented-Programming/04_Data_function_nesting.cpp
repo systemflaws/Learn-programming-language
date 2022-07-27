@@ -5,17 +5,18 @@ using namespace std;
 class Binary
 {
     string s;
-    void checkBinary(string); // can be called inside the public method
+    void checkBinary(string); // Here, it is private function. But it can be called inside the public functions.
 
 public:
     void getBinary();
 };
+
 void Binary::getBinary()
 {
     cout << "Enter the Binary String: " << endl;
     cin >> s;
     cout << "Checking whether it is binary or not ..." << endl;
-    checkBinary(s);
+    checkBinary(s); // private class function
 }
 
 void Binary::checkBinary(string s)
@@ -51,6 +52,7 @@ void Binary::checkBinary(string s)
         cout << "No, it's not binary." << endl;
     return;
 }
+
 int main()
 {
     Binary b;

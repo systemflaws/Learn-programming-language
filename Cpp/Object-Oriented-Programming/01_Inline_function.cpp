@@ -2,14 +2,14 @@
 
 using namespace std;
 
-inline int product(int a, int b) { return a * b; }
-/*
-inline replace in compile time
-only for smaller line of code
-function do almost zero work
-if recursion then don't use, if static variable then don't use
-if loops or conditionals don't use
+/* INLINE FUNCTION: 
+Inline replace in compile time. Only for smaller line of code. function do almost zero work.
+If recursion,or have static variable, and contains loops or conditionals then don't use in any of the condition.
+
+inline returnType functionName(arguments){}
 */
+
+inline int product(int a, int b) { return a * b; }
 
 int main()
 {
