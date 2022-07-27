@@ -2,6 +2,16 @@
 
 using namespace std;
 
+/*
+    Properties of friend function:
+    1. Not in the scope of class
+    2. Since, it is not in the scope of the class, it cannot be called from the object of the class. c1.friendfunction() INVALID
+    3. Can be invoked without the help of any object
+    4. Usually contains the objects as arguments
+    5. Can be declared inside public or private section of the class
+    6. It cannot access the members directly by their names and need objects_name.dataMember to access
+*/
+
 class ComplexNumber{
   int realPart;
   int imaginaryPart;
